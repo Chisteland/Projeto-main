@@ -1,12 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+
+
 }
 body{
     height: 100vh;
-    background-color: black;
-    color: white;
+    background-color: rgba(26, 0, 35, 0.909);
+    color: rgb(218, 181, 181);
 }
 .titulo-destaque{
-    color: greenyellow;
+    color: rgb(255, 187, 138);
+}
+.titulo-destaque2{
+    color: rgb(196, 74, 40);
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao__conteudo__titulo {
+    font-family: "Cinzel", serif;
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.apresentacao__conteudo__redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.apresentacao__links {
+    background-color: rgb(255, 187, 138);
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15.5px 0;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+
 }
